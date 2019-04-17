@@ -8,5 +8,15 @@ namespace Echelon_Form
 {
     public class AugmentedMatrix
     {
+        private int[][] matrix;
+        public AugmentedMatrix(int n, int m, string[] rows)
+        {
+            foreach(string row in rows)
+            {
+                string[] values = row.Split(' ');
+
+                int[] valuesInRow = Array.ConvertAll(values, int.Parse);
+            }
+        }
     }
 }
