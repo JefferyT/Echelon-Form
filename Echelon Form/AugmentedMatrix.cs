@@ -18,5 +18,7 @@ namespace Echelon_Form
                 int[] valuesInRow = Array.ConvertAll(values, int.Parse);
             }
         }
+
+        public 
     }
 }
